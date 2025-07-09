@@ -81,3 +81,30 @@ footer a {
 footer a:hover {
   color: #2980b9;
 }
+
+/* 캐러셀 스타일 수정 */
+.carousel {
+  position: relative;
+  padding-bottom: 60px; /* 인디케이터를 위한 하단 여백 추가 */
+}
+
+.carousel-indicators {
+  bottom: -50px; /* 인디케이터를 캐러셀 바깥 하단으로 이동 */
+  z-index: 10;
+}
+
+.carousel-indicators li {
+  background-color: #999;
+}
+
+.carousel-indicators .active {
+  background-color: #3498db;
+}
+
+.carousel-inner {
+  padding: 20px; /* 텍스트와 인디케이터 간 여백 추가 */
+}
+
+.carousel-inner h4 {
+  margin-bottom: 30px; /* 텍스트와 인디케이터 간 거리 확보 */
+}
