@@ -50,6 +50,11 @@ body {
 .logo-small {
   font-size: 50px;
   color: #3498db;
+  margin-bottom: 10px; /* 아이콘과 텍스트 간격 조정 */
+}
+
+.logo-small.fas {
+  line-height: 1; /* Font Awesome 아이콘 수직 정렬 */
 }
 
 .slideanim {
@@ -82,14 +87,14 @@ footer a:hover {
   color: #2980b9;
 }
 
-/* 캐러셀 스타일 수정 */
+/* 캐러셀 스타일 (더 이상 필요 없음, 유지하되 사용 안 함) */
 .carousel {
   position: relative;
-  padding-bottom: 60px; /* 인디케이터를 위한 하단 여백 추가 */
+  padding-bottom: 60px;
 }
 
 .carousel-indicators {
-  bottom: -50px; /* 인디케이터를 캐러셀 바깥 하단으로 이동 */
+  bottom: -50px;
   z-index: 10;
 }
 
@@ -102,9 +107,9 @@ footer a:hover {
 }
 
 .carousel-inner {
-  padding: 20px; /* 텍스트와 인디케이터 간 여백 추가 */
+  padding: 20px;
 }
 
 .carousel-inner h4 {
-  margin-bottom: 30px; /* 텍스트와 인디케이터 간 거리 확보 */
+  margin-bottom: 30px;
 }
