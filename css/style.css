@@ -50,11 +50,11 @@ body {
 .logo-small {
   font-size: 50px;
   color: #3498db;
-  margin-bottom: 10px; /* 아이콘과 텍스트 간격 조정 */
+  margin-bottom: 10px;
 }
 
 .logo-small.fas {
-  line-height: 1; /* Font Awesome 아이콘 수직 정렬 */
+  line-height: 1;
 }
 
 .slideanim {
@@ -73,6 +73,58 @@ body {
   height: auto;
 }
 
+.thumbnail.hobby-card {
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  padding: 0;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.hobby-title {
+  font-size: 18px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.section-spacing {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.carousel {
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.carousel-inner .item {
+  padding: 10px;
+}
+
+.carousel-indicators {
+  bottom: -20px;
+  z-index: 10;
+}
+
+.carousel-indicators li {
+  background-color: #999;
+}
+
+.carousel-indicators .active {
+  background-color: #3498db;
+}
+
+.carousel-control {
+  color: #3498db;
+  text-shadow: none;
+}
+
+.carousel-control .glyphicon {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 footer {
   background-color: #2c3e50;
   color: #fff;
@@ -85,31 +137,4 @@ footer a {
 
 footer a:hover {
   color: #2980b9;
-}
-
-/* 캐러셀 스타일 (더 이상 필요 없음, 유지하되 사용 안 함) */
-.carousel {
-  position: relative;
-  padding-bottom: 60px;
-}
-
-.carousel-indicators {
-  bottom: -50px;
-  z-index: 10;
-}
-
-.carousel-indicators li {
-  background-color: #999;
-}
-
-.carousel-indicators .active {
-  background-color: #3498db;
-}
-
-.carousel-inner {
-  padding: 20px;
-}
-
-.carousel-inner h4 {
-  margin-bottom: 30px;
 }
