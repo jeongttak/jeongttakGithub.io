@@ -15,7 +15,7 @@
   <script src="js/script.js?v=2"></script>
   <link rel="stylesheet" href="css/style.css?v=2">
 </head>
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="80">
 
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
@@ -30,9 +30,9 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#about">ABOUT</a></li>
+        <li><a href="#achievements">ACHIEVEMENTS</a></li>
         <li><a href="#skills">SKILLS</a></li>
         <li><a href="#hobby">HOBBY</a></li>
-        <li><a href="#achievements">ACHIEVEMENTS</a></li>
         <li><a href="#contact">CONTACT</a></li>
       </ul>
     </div>
@@ -43,217 +43,23 @@
   <img src="assets/images/start_image.png" alt="코딩하는 카피바라" class="img-responsive center-block" style="width: 500px; height: 500px;">
 </div>
 
-<!-- Container (About Section) -->
-<div id="about" class="container-fluid section-spacing">
+<!-- New About Section -->
+<div id="about" class="container-fluid section-spacing" style="background-color: #e6f3ff;">
   <div class="row">
-    <div class="col-sm-8">
-      <h2>About Me</h2><br>
-      <h4>안녕하세요! 저는 홍익대학교 소프트웨어융합과에 재학 중인 박정호입니다.</h4><br>
-      <p>웹 개발, 소프트웨어 엔지니어링, 그리고 데이터 분석에 관심이 많습니다. 새로운 기술을 배우고 이를 활용해 문제를 해결하는 것을 즐깁니다. 현재 메타버스를 통해 Spring, Git, HTML 등을 공부하고 있습니다. 제 목표는 사용자에게 가치를 제공하는 소프트웨어를 만드는 개발자가 되는 것입니다.</p>
-      <br><a href="#contact" class="btn btn-default btn-lg">Contact Me</a>
+    <div class="col-sm-6 text-center">
+      <img src="assets/images/jeongho.png" alt="Profile" class="img-circle" style="width: 200px; height: 200px; margin-bottom: 20px;">
+      <h2 style="color: #2c3e50;">About me</h2>
+      <p style="font-size: 18px; color: #34495e;">2002.02.14</p>
+      <p style="font-size: 18px; color: #34495e;">Park Jeongho</p>
     </div>
-    <div class="col-sm-4">
-      <img src="assets/images/jeongho.png" alt="Profile" class="img-circle" style="width: 200px; height: 200px;">
+    <div class="col-sm-6">
+      <h3 style="color: #2c3e50;">이름: 박정호</h3>
+      <p style="font-size: 20px; color: #34495e;">이력: 홍익대학교 소프트웨어융합학과 입학 2021.03 ~ <br>소프트웨어융합학과 풋살 소모임 아레스 부회장 2022.03 ~ 2022.12
+         <br>육군 병장 만기 전역 2023.01 ~ 2024.07<br>소프트웨어융합학과 28대 학생회 학술부 부장 2025.03 ~ 
+         <br>메타버스 아카데미 2025.07 ~</p>
+      <div style="margin-top: 20px;">
     </div>
   </div>
-</div>
-
-<div class="container-fluid bg-grey section-spacing">
-  <div class="row">
-    <div class="col-sm-4">
-      <i class="fa fa-desktop fa-10x"></i>
-    </div>
-    <div class="col-sm-8">
-      <h2>My Activity</h2><br>
-      <h4><strong>MISSION:</strong> 창의적이고 효율적인 솔루션을 통해 세상에 긍정적인 영향을 미치는 소프트웨어를 개발합니다.</h4><br>
-      <p><strong>VISION:</strong> 협업과 소통을 통해 배우고 성장하는 풀스택 개발자가 되는 것입니다.</p>
-    </div>
-  </div>
-</div>
-
-<!-- Container (Skills Section) -->
-<div id="skills" class="container-fluid text-center section-spacing">
-  <h2>Skills</h2>
-  <h4>My Technical Expertise</h4>
-  <br>
-  <div class="row slideanim">
-    <div class="col-sm-4">
-      <i class="fas fa-code logo-small"></i>
-      <h4>Web Development</h4>
-      <p>HTML, CSS, JavaScript, Spring</p>
-    </div>
-    <div class="col-sm-4">
-      <i class="fas fa-laptop-code logo-small"></i>
-      <h4>Programming</h4>
-      <p>Java, C</p>
-    </div>
-    <div class="col-sm-4">
-      <i class="fas fa-tools logo-small"></i>
-      <h4>Tools</h4>
-      <p>Git, VS Code, GitHub</p>
-    </div>
-  </div>
-</div>
-
-<!-- Container (Hobby Section) -->
-<div id="hobby" class="container-fluid text-center bg-grey section-spacing">
-  <h2>Hobby</h2><br>
-  <h4>My Interests</h4>
-  <div class="row text-center slideanim">
-    <div class="col-sm-6">
-      <div id="carouselSports" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselSports" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselSports" data-slide-to="1"></li>
-          <li data-target="#carouselSports" data-slide-to="2"></li>
-          <li data-target="#carouselSports" data-slide-to="3"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="item active">
-            <div class="thumbnail hobby-card">
-              <img src="assets/images/baseball1.jpg" alt="야구" class="hobby-image">
-              <figcaption>야구</figcaption>
-            </div>
-          </div>
-          <div class="item">
-            <div class="thumbnail hobby-card">
-              <img src="assets/images/baseball2.jpg" alt="첫 안타 공" class="hobby-image">
-              <figcaption>첫 안타 공</figcaption>
-            </div>
-          </div>
-          <div class="item">
-            <div class="thumbnail hobby-card">
-              <img src="assets/images/soccer1.jpg" alt="2022 홍익대 축구대회 우승" class="hobby-image">
-              <figcaption>2022 홍익대 축구대회 우승</figcaption>
-            </div>
-          </div>
-          <div class="item">
-            <div class="thumbnail hobby-card">
-              <img src="assets/images/soccer2.jpg" alt="2022 홍익대 축구대회 우승 단체" class="hobby-image">
-              <figcaption>2022 홍익대 축구대회 우승 단체</figcaption>
-            </div>
-          </div>
-        </div>
-        <a class="left carousel-control" href="#carouselSports" role="button" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#carouselSports" role="button" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-      <p class="hobby-title"><strong>Sports</strong></p>
-    </div>
-    <div class="col-sm-6">
-      <div id="carouselMusic" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselMusic" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselMusic" data-slide-to="1"></li>
-          <li data-target="#carouselMusic" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="item active">
-            <div class="thumbnail hobby-card">
-              <img src="assets/images/keshi.jpg" alt="keshi" class="hobby-image">
-              <figcaption>Keshi</figcaption>
-            </div>
-          </div>
-          <div class="item">
-            <div class="thumbnail hobby-card">
-              <img src="assets/images/hynn.jpg" alt="hynn 박혜원" class="hobby-image">
-              <figcaption>Hynn 박혜원</figcaption>
-            </div>
-          </div>
-          <div class="item">
-            <div class="thumbnail hobby-card">
-              <img src="assets/images/wavetoearth.jpg" alt="wave to earth" class="hobby-image">
-              <figcaption>Wave to Earth</figcaption>  
-            </div>
-          </div>
-        </div>
-        <a class="left carousel-control" href="#carouselMusic" role="button" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#carouselMusic" role="button" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-      <p class="hobby-title"><strong>Music</strong></p>
-    </div>
-    <div class="col-sm-6">
-      <div id="carouselGame" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselGame" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselGame" data-slide-to="1"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="item active">
-            <div class="thumbnail hobby-card">
-              <img src="assets/images/vlrt.jpg" alt="발로란트" class="hobby-image">
-              <figcaption>발로란트</figcaption>
-            </div>
-          </div>
-          <div class="item">
-            <div class="thumbnail hobby-card">
-              <img src="assets/images/f1.jpg" alt="f1 25" class="hobby-image">
-              <figcaption>F1 25</figcaption>
-            </div>
-          </div>
-        </div>
-        <a class="left carousel-control" href="#carouselGame" role="button" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#carouselGame" role="button" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-      <p class="hobby-title"><strong>Game</strong></p>
-    </div>
-    <div class="col-sm-6">
-      <div id="carouselFriends" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselFriends" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselFriends" data-slide-to="1"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="item active">
-            <div class="thumbnail hobby-card">
-              <img src="assets/images/friends1.jpg" alt="대학 친구들" class="hobby-image">
-            </div>
-          </div>
-          <div class="item">
-            <div class="thumbnail hobby-card">
-              <img src="assets/images/friends3.jpg" alt="대학 친구들 " class="hobby-image">
-            </div>
-          </div>
-          <div class="item">
-            <div class="thumbnail hobby-card">
-              <img src="assets/images/friends2.jpg" alt="10년지기 친구들" class="hobby-image">
-            </div>
-          </div>
-          <div class="item">
-            <div class="thumbnail hobby-card">
-              <img src="assets/images/friends4.jpg" alt="군대" class="hobby-image">
-            </div>
-          </div>
-        </div>
-        <a class="left carousel-control" href="#carouselFriends" role="button" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#carouselFriends" role="button" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-      <p class="hobby-title"><strong>Friends</strong></p>
-    </div>
-  </div><br>
 </div>
 
 <!-- Container (Achievements Section) -->
@@ -291,7 +97,7 @@
         </div>
         <div class="panel-body">
           <p>2022 풋살 소모임 아레스 부회장</p>
-          <img src ="assets/images/studentcouncil.jpg" alt="소프트웨어융합학과 학생회" class="img-responsive center-block" style="width: 80%;">
+          <img src="assets/images/studentcouncil.jpg" alt="소프트웨어융합학과 학생회" class="img-responsive center-block" style="width: 80%;">
           <figcaption>소프트웨어융합학과 학생회</figcaption>
         </div>
       </div>
@@ -299,8 +105,174 @@
   </div>
 </div>
 
+<!-- Container (Skills Section) -->
+<div id="skills" class="container-fluid section-spacing text-center" style="background-color: #e6f3ff;">
+  <h2>Skills</h2>
+  <h4>My Technical Expertise</h4>
+  <br>
+  <div class="row slideanim">
+    <div class="col-sm-4">
+      <i class="fas fa-code" style="font-size: 40px; color: #3498db;"></i>
+      <h4>Web Development</h4>
+      <p>HTML, CSS, JavaScript, Spring</p>
+    </div>
+    <div class="col-sm-4">
+      <i class="fas fa-laptop-code" style="font-size: 40px; color: #3498db;"></i>
+      <h4>Programming</h4>
+      <p>Java, C</p>
+    </div>
+    <div class="col-sm-4">
+      <i class="fas fa-tools" style="font-size: 40px; color: #3498db;"></i>
+      <h4>Tools</h4>
+      <p>Git, VS Code, GitHub</p>
+    </div>
+  </div>
+</div>
+
+<!-- Container (Hobby Section) -->
+<div id="hobby" class="container-fluid section-spacing text-center" style="background-color: #ecf0f1;">
+  <h2>Hobby</h2>
+  <h4>My Interests</h4>
+  <div class="row text-center slideanim">
+    <div class="col-sm-6">
+      <div id="carouselSports" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="item active">
+            <div class="thumbnail hobby-card">
+              <img src="assets/images/baseball1.jpg" alt="야구" class="hobby-image" style="width: 100%; height: auto;">
+              <figcaption>야구</figcaption>
+            </div>
+          </div>
+          <div class="item">
+            <div class="thumbnail hobby-card">
+              <img src="assets/images/baseball2.jpg" alt="첫 안타 공" class="hobby-image" style="width: 100%; height: auto;">
+              <figcaption>첫 안타 공</figcaption>
+            </div>
+          </div>
+          <div class="item">
+            <div class="thumbnail hobby-card">
+              <img src="assets/images/soccer1.jpg" alt="2022 홍익대 축구대회 우승" class="hobby-image" style="width: 100%; height: auto;">
+              <figcaption>2022 홍익대 축구대회 우승</figcaption>
+            </div>
+          </div>
+          <div class="item">
+            <div class="thumbnail hobby-card">
+              <img src="assets/images/soccer2.jpg" alt="2022 홍익대 축구대회 우승 단체" class="hobby-image" style="width: 100%; height: auto;">
+              <figcaption>2022 홍익대 축구대회 우승 단체</figcaption>
+            </div>
+          </div>
+        </div>
+        <a class="left carousel-control" href="#carouselSports" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carouselSports" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <p class="hobby-title"><strong>Sports</strong></p>
+    </div>
+    <div class="col-sm-6">
+      <div id="carouselMusic" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="item active">
+            <div class="thumbnail hobby-card">
+              <img src="assets/images/keshi.jpg" alt="keshi" class="hobby-image" style="width: 100%; height: auto;">
+              <figcaption>Keshi</figcaption>
+            </div>
+          </div>
+          <div class="item">
+            <div class="thumbnail hobby-card">
+              <img src="assets/images/hynn.jpg" alt="hynn 박혜원" class="hobby-image" style="width: 100%; height: auto;">
+              <figcaption>Hynn 박혜원</figcaption>
+            </div>
+          </div>
+          <div class="item">
+            <div class="thumbnail hobby-card">
+              <img src="assets/images/wavetoearth.jpg" alt="wave to earth" class="hobby-image" style="width: 100%; height: auto;">
+              <figcaption>Wave to Earth</figcaption>  
+            </div>
+          </div>
+        </div>
+        <a class="left carousel-control" href="#carouselMusic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carouselMusic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <p class="hobby-title"><strong>Music</strong></p>
+    </div>
+    <div class="col-sm-6">
+      <div id="carouselGame" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="item active">
+            <div class="thumbnail hobby-card">
+              <img src="assets/images/vlrt.jpg" alt="발로란트" class="hobby-image" style="width: 100%; height: auto;">
+              <figcaption>발로란트</figcaption>
+            </div>
+          </div>
+          <div class="item">
+            <div class="thumbnail hobby-card">
+              <img src="assets/images/f1.jpg" alt="f1 25" class="hobby-image" style="width: 100%; height: auto;">
+              <figcaption>F1 25</figcaption>
+            </div>
+          </div>
+        </div>
+        <a class="left carousel-control" href="#carouselGame" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carouselGame" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <p class="hobby-title"><strong>Game</strong></p>
+    </div>
+    <div class="col-sm-6">
+      <div id="carouselFriends" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="item active">
+            <div class="thumbnail hobby-card">
+              <img src="assets/images/friends1.jpg" alt="대학 친구들" class="hobby-image" style="width: 100%; height: auto;">
+            </div>
+          </div>
+          <div class="item">
+            <div class="thumbnail hobby-card">
+              <img src="assets/images/friends3.jpg" alt="대학 친구들 " class="hobby-image" style="width: 100%; height: auto;">
+            </div>
+          </div>
+          <div class="item">
+            <div class="thumbnail hobby-card">
+              <img src="assets/images/friends2.jpg" alt="10년지기 친구들" class="hobby-image" style="width: 100%; height: auto;">
+            </div>
+          </div>
+          <div class="item">
+            <div class="thumbnail hobby-card">
+              <img src="assets/images/friends4.jpg" alt="군대" class="hobby-image" style="width: 100%; height: auto;">
+            </div>
+          </div>
+        </div>
+        <a class="left carousel-control" href="#carouselFriends" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carouselFriends" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <p class="hobby-title"><strong>Friends</strong></p>
+    </div>
+  </div><br>
+</div>
+
 <!-- Container (Contact Section) -->
-<div id="contact" class="container-fluid bg-grey section-spacing">
+<div id="contact" class="container-fluid section-spacing bg-grey">
   <h2 class="text-center">CONTACT</h2>
   <div class="row">
     <div class="col-sm-5">
@@ -337,6 +309,6 @@
   <p>Created by Jeongttak © 2025</p>
 </footer>
 
-<!-- Cache buster: 2025-07-09 -->
+<!-- Cache buster: 2025-07-13 -->
 </body>
 </html>

@@ -99,8 +99,8 @@ body {
 }
 
 .section-spacing {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding: 50px 0;
+  min-height: 100vh; /* 화면 높이 전체로 설정 */
 }
 
 .carousel {
@@ -147,4 +147,12 @@ footer a {
 
 footer a:hover {
   color: #2980b9;
+}
+
+body {
+  position: relative;
+}
+
+.navbar {
+  margin-bottom: 0;
 }

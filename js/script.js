@@ -5,7 +5,7 @@ $(document).ready(function(){
       event.preventDefault();
       var hash = this.hash;
       $('html, body').animate({
-        scrollTop: $(hash).offset().top - 70 // Navbar 높이(60px) + 약간의 여유(10px) 보정
+        scrollTop: $(hash).offset().top - 40 // 보정값 줄임
       }, 900, function(){
         window.location.hash = hash;
       });
@@ -16,7 +16,7 @@ $(document).ready(function(){
     $(".slideanim").each(function(){
       var pos = $(this).offset().top;
       var winTop = $(window).scrollTop();
-      if (pos < winTop + 600) {
+      if (pos < winTop + 800) { // 슬라이드 트리거 유지
         $(this).addClass("slide");
       }
     });
